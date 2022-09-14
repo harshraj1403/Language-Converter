@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Arvo&family=Bree+Serif&family=Comfortaa&family=Domine:wght@500&family=DynaPuff:wght@600&family=Fjalla+One&family=Gentium+Plus:ital@1&family=Kanit:ital,wght@0,200;1,100&family=Kdam+Thmor+Pro&family=Libre+Baskerville:wght@400;700&family=Lobster&family=Noto+Serif:ital@0;1&family=Nuosu+SIL&family=Oswald:wght@300;400&family=PT+Serif:wght@700&family=Playfair+Display+SC&family=Playfair+Display:wght@500&family=Righteous&family=Roboto+Slab:wght@400;500&family=Rubik+Dirt&family=Rubik+Maze&family=Tai+Heritage+Pro&family=Tapestry&family=Tiro+Gurmukhi&family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding:0px ;
+    box-sizing:border-box ;
+    
+    font-family: 'Arvo', serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  background-image: url('https://media.istockphoto.com/illustrations/outer-space-fiction-backdrop-concept-art-illustration-id1096293634?k=20&m=1096293634&s=170667a&w=0&h=p4x6XY-VRLSh7imkmYgeKNLAtm23YZZqtgRk2eBg0z8=');
+  
+  background-size: cover;
+}
+.container{
+    width:690px;
+   background-image: url('https://img.freepik.com/free-vector/cartoon-tiny-people-having-international-communication-online-flat-illustration_74855-16818.jpg?size=626&ext=jpg&ga=GA1.2.547160101.1654529879');
+    border-radius: 7px;
+    padding:30px;
+  
+    
+}
+.wrapper{
+border-radius:5px ;
+border: 2px solid black;
+}
+.wrapper .text-input{
+ display: flex;
+ border-bottom: 2px solid black;
+}
+.text-input .to-text{
+    border-left: 2px solid black;
+    border-radius: 0px;
+}
+.text-input textarea{
+ height:250px ;
+ width: 100%;
+ border:none;
+ resize: none;
+ outline: none ;
+ background:none ;
+ font-size: 18px;
+ border-radius: 5px;
+ padding: 10px 15px;
+}
+
+.controls, li, .icons, .icons{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.controls{
+list-style: none;
+padding: 12px 15px;
+}
+.controls .row.from .icons{
+    border-right: 2px solid black;
+    padding-right: 15px;
+    } 
+
+    .controls .row.to .icons{
+        border-left: 2px solid black;
+        padding-left: 15px;
+        }
+
+
+
+.controls .icons{
+    width:38%;
+}
+
+.controls .icons i{
+width:50px;
+color: rgb(59, 55, 55);
+font-size:14px ;
+cursor: pointer;
+justify-content: center;
+}
+.controls .row select{
+border: none;
+outline: none;
+font-size:18px ;
+background: none;
+}
+.controls .exchange{
+    color: rgb(59, 55, 55);
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.container button{
+    width:100%;
+    padding:14px ;
+    margin-top:20px ;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    background: rgba(251, 179, 46, 0.92);
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgb(96, 5, 23);
+}
